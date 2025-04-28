@@ -19,8 +19,8 @@
 - **Data Operations**: Perform common analyses:
   - `Sum()`
   - `Std()` (Standard Deviation)
-  - `Select()` specific columns
-  - `Row()` to retrieve specific rows
+  - `Col()` specific columns
+  - `Loc()` to retrieve specific rows
 - **Lightweight & Fast**: Designed for high performance in Go environments.
 
 ---
