@@ -58,11 +58,11 @@ func main() {
     fmt.Println("Score Std Dev:", scoreStd)
 
     // Select "Name" and "Email" columns
-    subset := df.Select("Name", "Email")
+    subset := df.Col("Name", "Email")
     fmt.Println(subset)
 
     // Retrieve the 5th row (zero-based index)
-    row := df.Row(4)
+    row := df.Loc(4)
     fmt.Println("Row 5:", row)
 }
 ```
