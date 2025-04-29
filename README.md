@@ -39,7 +39,7 @@ package main
 
 import (
     "fmt"
-    "github.com/zyadamr-dev/Kuala/io"
+    "github.com/zyadamr-dev/Kuala"
 )
 
 func main() {
